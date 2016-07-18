@@ -1,0 +1,282 @@
+/*
+ Theme Name:     WSU Writing Program
+ Theme URI:      https://web.wsu.edu/
+ Description:    A child theme for Washington State University's Spine framework for the Writing Program
+ Author:         WSU University Communications
+ Author URI:     https://ucomm.wsu.edu/
+ Template:       spine
+ Version:        0.0.1
+*/
+
+/****
+	# Main global styles
+****/
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+*:hover {
+	transition-property: background, color;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+}
+main {
+	background:#fff;
+	color:rgba(0,0,0,.7);
+	border-left:12px solid #eff0f1;
+	border-right:12px solid #eff0f1;
+}
+/****
+	# Spine changes
+****/
+.main-header {
+	background-color:transparent;
+	height:80px;
+	border-bottom: 1px solid #eff0f1;
+	padding-left:2em;
+	padding-top:1.6em;
+}
+.main-header header[role="banner"] a {
+	font-size:2rem;
+	word-spacing: 4px;
+	color:#464e54;
+	text-transform: none;
+	font-family:"open sans condensed";
+	vertical-align: middle;
+}
+.main-header nav.utility ul {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position:absolute;
+	right:10px;
+	top:30px;
+}
+.main-header nav.utility ul li a {
+	font-size:1rem;
+	color:#00a5bd;
+	margin-right:10px;
+	padding-left:.4em;
+	padding-right:.4em;
+}
+
+.main-header nav.utility ul li a:hover,
+.main-header nav.utility ul li a:focus {
+	color:#c60c30;
+	background:rgba(243, 240, 239, 1);
+}
+.builder-banner-content {
+	text-shadow: 1px 0 8px rgba(0, 0, 0, .65);
+	background-color: rgba(0,0,0,.15);
+}
+.builder-banner-content h1 {
+		line-height: 1.4;
+		color:#fff;
+		border: 2px solid #fff;
+		padding: .8em;
+		font-size:1.8rem;
+		font-weight: 300;
+		font-family: "open sans";
+}
+.single.gutter .column:not(.gutterless) {
+	padding-left:10%;
+	padding-right:10%;
+}
+.halves.gutter {
+	padding-left:5%;
+	padding-right:5%;
+}
+/****
+	# Typography
+****/
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "open sans condensed";
+	color:#2a3033;
+}
+h2 {
+	font-size:36px;
+	line-height:1.15;
+	letter-spacing:-.4px;
+	padding-top:1.4em;
+	padding-bottom:.8em;
+}
+h3 {
+	font-size:26px;
+	line-height:1.15;
+	letter-spacing:-.5px;
+	padding-top:1.1em;
+	padding-bottom:.8em;
+}
+main ul,
+main ol,
+p {
+	font-size:1rem;
+	line-height:1.4;
+	padding-bottom:1.4em;
+}
+blockquote,
+main ol,
+p~p,
+main ul {
+	padding-bottom:2em;
+}
+a {
+	color:#00a5bd;
+}
+a:hover,
+a:focus {
+	color:#c60c30;
+	background:rgba(243, 240, 239, 1);
+}
+/****
+	# HTML elements
+****/
+iframe,
+address {
+	margin-top:1.2em;
+}
+/****
+	# Custom sections
+****/
+.single.gutter .column:not(.gutterless).consultant-honors {
+	padding-left:2em;
+	padding-right:2em;
+	padding-bottom:4em;
+}
+.consultant-honors ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding:0;
+	margin:0;
+	width:68%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.consultant-honors ul li {
+	list-style: none;
+	margin-right:20px;
+	margin-top:50px;
+	width:120px;
+
+}
+.consultant-honors ul li:last-of-type {
+	margin-right:0;
+}
+.consultant-honors ul li strong {
+	display:block;
+	padding-bottom:.2em;
+	font-size:1.2em;
+	color:#00a5bd;
+}
+.consultant-honors ul li img {
+	border-radius:50%;
+	width:120px;
+	margin-bottom:15px;
+}
+.contact-form .column {
+	background:#EFF0F1;
+}
+.contact-form .column form {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.contact-form .column .gform_wrapper h3.gform_title {
+	text-align: center;
+	font-size:36px;
+}
+.contact-form .column .gform_wrapper .ginput_complex label {
+	color:#6d441f;
+}
+.gray {
+	background:#eff0f1;
+}
+.gray em {
+	font-style: normal;
+	font-size:1.4rem;
+}
+/****
+	# Forms
+****/
+.gform_wrapper h3.gform_title {
+	padding-top:0;
+	margin-top:0;
+	font-size:1.5rem;
+}
+.gform_wrapper .top_label .gfield_label {
+	font-size:1.3rem;
+	font-weight:400;
+	padding-top:.4em;
+}
+.gform_wrapper .ginput_complex label {
+	font-size:1rem;
+	font-weight:300;
+	text-transform: uppercase;
+	color:#b5babe;
+}
+.gform_wrapper .ginput_complex input[type=text],
+.gform_wrapper .hidden_label input.large,
+.gform_wrapper .hidden_label select.large,
+.gform_wrapper .top_label input.large,
+.gform_wrapper .top_label select.large {
+	height:40px;
+}
+.gform_wrapper textarea.large {
+	padding.8em;
+}
+.gform_wrapper .gform_footer input.button,
+.gform_wrapper .gform_footer input[type=submit],
+.button,
+.spine-button,
+button,
+input[type=submit],
+input[type=reset],
+input[type=button] {
+	background:transparent;
+	border:1px solid #00a5bd;
+	border-radius: 0;
+	color:#00a5bd;
+	padding:.8em;
+	font-size:1.1rem;
+}
+.gform_wrapper .gform_footer input.button:focus,
+.gform_wrapper .gform_footer input[type=submit]:focus,
+.gform_wrapper .gform_footer input.button:hover,
+.gform_wrapper .gform_footer input[type=submit]:hover,
+.button:focus,
+.button:hover,
+button:focus,
+button:hover,
+input[type=submit]:focus,
+input[type=submit]:hover,
+input[type=reset]:focus,
+input[type=reset]:hover,
+input[type=button]:focus,
+input[type=button]:hover {
+	 background:#00a5bd;
+	 color:#fff;
+	 border:1px solid #00a5bd;
+ }
+@media (max-width: 769px) {
+	.main-header {
+		height:auto;
+	}
+	.main-header nav.utility ul {
+		flex-wrap:wrap;
+		justify-content: inherit;
+		position: relative;
+		padding-left:0;
+		padding-bottom:3em;
+	}
+	h2:first-of-type {
+		padding-top:1em;
+	}
+}
