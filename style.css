@@ -72,6 +72,7 @@ main {
 	background-color: rgba(0,0,0,.15);
 }
 .builder-banner-content h1 {
+	  background: rgba(0,0,0,.1);
 		line-height: 1.4;
 		color:#fff;
 		border: 2px solid #fff;
@@ -79,6 +80,7 @@ main {
 		font-size:1.8rem;
 		font-weight: 300;
 		font-family: "open sans";
+		text-align: center;
 }
 .single.gutter .column:not(.gutterless) {
 	padding-left:10%;
@@ -141,6 +143,15 @@ iframe,
 address {
 	margin-top:1.2em;
 }
+
+hr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eff0f1;
+    height: 1px;
+    background-color:transparent;
+
+	}
 /****
 	# Custom sections
 ****/
