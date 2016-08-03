@@ -241,7 +241,7 @@ hr {
 	height:40px;
 }
 .gform_wrapper textarea.large {
-	padding.8em;
+	padding: .8em;
 }
 .gform_wrapper .gform_footer input.button,
 .gform_wrapper .gform_footer input[type=submit],
