@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.2
+ Version:        0.0.3
 */
 
 /****
@@ -115,6 +115,10 @@ h3 {
 	padding-top:1.1em;
 	padding-bottom:.8em;
 }
+h4 {
+	text-transform: uppercase;
+	font-size:20px;
+}
 main ul,
 main ol,
 p {
@@ -128,11 +132,11 @@ p~p,
 main ul {
 	padding-bottom:2em;
 }
-a {
+main a {
 	color:#00a5bd;
 }
-a:hover,
-a:focus {
+main a:hover,
+main a:focus {
 	color:#c60c30;
 	background:rgba(243, 240, 239, 1);
 }
@@ -152,6 +156,12 @@ hr {
     background-color:transparent;
 
 	}
+/****
+		# Images
+****/
+.full-img {
+	height:400px;
+}
 /****
 	# Custom sections
 ****/
