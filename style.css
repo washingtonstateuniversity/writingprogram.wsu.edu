@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.6
+ Version:        0.0.7
 */
 
 /****
@@ -96,10 +96,10 @@ main {
 /****
 	# Typography
 ****/
-h1 {
+h1,
+h2 {
 	color:#00a5bd;
 }
-h2,
 h3,
 h4,
 h5 {
