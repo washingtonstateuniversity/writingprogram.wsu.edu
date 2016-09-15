@@ -263,9 +263,9 @@ input[type=submit],
 input[type=reset],
 input[type=button] {
 	background:transparent;
-	border:1px solid #00a5bd;
+	border:1px solid #981E32;
 	border-radius: 0;
-	color:#00a5bd;
+	color:#981E32;
 	padding:.8em;
 	font-size:1.1rem;
 }
@@ -283,9 +283,9 @@ input[type=reset]:focus,
 input[type=reset]:hover,
 input[type=button]:focus,
 input[type=button]:hover {
-	 background:#00a5bd;
+	 background:#c60c30;
 	 color:#fff;
-	 border:1px solid #00a5bd;
+	 border:1px solid #c60c30;
  }
 @media (max-width: 769px) {
 	.main-header {
