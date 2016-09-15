@@ -32,7 +32,7 @@ main {
 	# Spine changes
 ****/
 .main-header {
-	background-color:transparent;
+	background-color:#00a5bd;
 	height:80px;
 	border-bottom: 1px solid #eff0f1;
 	padding-left:2em;
@@ -41,7 +41,7 @@ main {
 .main-header header[role="banner"] a {
 	font-size:2rem;
 	word-spacing: 4px;
-	color:#464e54;
+	color:#fff;
 	text-transform: none;
 	font-family:"open sans condensed";
 	vertical-align: middle;
@@ -56,7 +56,7 @@ main {
 }
 .main-header nav.utility ul li a {
 	font-size:1rem;
-	color:#00a5bd;
+	color:#fff;
 	margin-right:10px;
 	padding-left:.4em;
 	padding-right:.4em;
@@ -99,7 +99,7 @@ h3,
 h4,
 h5 {
 	font-family: "open sans condensed";
-	color:#2a3033;
+	color:#00a5bd;
 }
 h2 {
 	font-size:36px;
@@ -132,9 +132,7 @@ p~p,
 main ul {
 	padding-bottom:2em;
 }
-main a {
-	color:#00a5bd;
-}
+
 main a:hover,
 main a:focus {
 	color:#c60c30;
