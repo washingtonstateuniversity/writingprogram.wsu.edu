@@ -96,13 +96,15 @@ main {
 /****
 	# Typography
 ****/
-h1,
+h1 {
+	color:#00a5bd;
+}
 h2,
 h3,
 h4,
 h5 {
 	font-family: "open sans condensed";
-	color:#00a5bd;
+	color:#2a3033;
 }
 h2 {
 	font-size:36px;
