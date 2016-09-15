@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.7
+ Version:        0.0.8
 */
 
 /****
@@ -98,6 +98,7 @@ main {
 ****/
 h1,
 h2 {
+	font-family: "open sans condensed";
 	color:#00a5bd;
 }
 h3,
